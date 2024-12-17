@@ -46,31 +46,29 @@ body {
     align-items: center;
 }
 
-.container .direita .topo h1 {
-    color: #59AF9C; 
+.container .direita .formulario .topo h1 {
+    color: #59AF9C;
     font-size: 40px;
 }
 
-.container .direita .topo p {
+.container .direita .formulario .topo p {
     color: #cecece;
     text-align: center;
 }
 
 .container .direita .formulario .meio .campo {
-    background-color: #cecece;
+    background-color: #ECF0F1;
     display: flex;
-    align-items: center ;
-    padding-left: 10px;
-    /* o padding pode usar colocando cada lateral, sentido horario */
-    /* padding: 15px; */
+    align-items: center;
+    padding: 0 10px;
 }
 
-.container .direita .formulario .meio .campo input {    
-    border: black;
-    background-color: transparent; 
+.container .direita .formulario .meio .campo input {
+    border: none;
+    background-color: transparent;
     width: 100%;
-    padding: 15px;  
-    outline: none;     
+    padding: 15px;
+    outline: none;
 }
 
 .container .direita .formulario .meio {
@@ -79,18 +77,14 @@ body {
     gap: 10px;
 }
 
-.container .direita .formulario .fim  {
+.container .direita .formulario .fim {
     text-align: center;
     margin-top: 20px;
-    background-color: transparent;
 }
 
 .container .direita .formulario .fim button {
     background-color: #59AF9C;
-    border-color: transparent;
-    color: white;   
-    padding: 10px 40px;  
-    border-radius: 20px;
-}
-
-
+    border: transparent;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 25px;
